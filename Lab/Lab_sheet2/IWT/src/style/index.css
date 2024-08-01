@@ -1,0 +1,24 @@
+table, td, th {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+h3{
+
+    color: brown;
+}
+.Box{
+    list-style-type:square ;
+}
+
+footer{
+    text-align: center;
+}
