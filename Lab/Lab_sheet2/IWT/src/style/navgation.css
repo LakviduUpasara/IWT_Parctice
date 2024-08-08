@@ -1,0 +1,33 @@
+.nav-bar{
+
+    background-color: rgb(186, 136, 136);
+    padding: 1px;
+    margin: 5px;
+}
+
+.nav-ul
+{
+    list-style: none;
+
+
+}
+
+.nav-ul a
+{
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+.nav-ul a:hover
+{
+    color: rgb(202, 225, 0);
+    padding: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+
+}
+.nav-li {
+    display: inline;
+}
