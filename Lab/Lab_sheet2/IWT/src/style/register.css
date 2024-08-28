@@ -1,0 +1,20 @@
+h1{
+
+    text-align: center;
+    
+}
+form{
+
+    background-color: aliceblue;
+    text-align: justify;
+}
+.gender-redio{
+
+    justify-content: space-between;
+
+}
+.submit {
+
+    background-color: green;
+    color: aliceblue;
+}

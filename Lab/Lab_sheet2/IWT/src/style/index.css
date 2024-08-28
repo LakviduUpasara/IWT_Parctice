@@ -1,8 +1,15 @@
+body{
+  background-image: url(data:image/jpeg;base64,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);
+
+  background-size: cover;
+  background-position:Center;
+  background-Repeat :no-repeat ;
+  color:black;
+  
+}
+
 table, td, th {
     border: 1px solid;
-    background-color: white;
-    color: black;
-    font-weight:bold;
   }
   
   table {
@@ -26,60 +33,69 @@ footer{
     text-align: center;
 }
 
-body{
+.logo{
 
-  background-image :url(../image/background/download.jpeg);
+  margin: auto;
+  display: block;
 }
+.heder{
 
-.logo {
-
-   align-items: center;
-   text-align: center;
-   
-
-}
-h3 ,h4 {
-
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.nav-bar{
-
-  list-style-type: none;
+  text-align :center ;
+  font-family:times New Roman;
 
 }
 
-.nav-bar  a{
-  
-  color: #f3f3f3;
-  letter-spacing: 2px;
-  text-decoration:none ;
-  
-}
-.nav-bar  a:hover{
-  
-  color: #cea135;
-  letter-spacing: 6px;
-  
+hr{
+
+  border-width:1px;
+  border-color:black;
 }
 
-.nav-li
-{
+
+
+#Nav{
+
+  list-style-type:None;
+  margin:0px;
+  padding:0px;
+
+}
+.nav-li{
 
   display: inline;
+  justify-content: space-between;
 
-  
- 
+}  
+.navbar {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out logo and links */
+  align-items: center; /* Center items vertically */
+  background-color: black; /* Background color */
+  padding: 10px 20px; /* Padding around the navbar */
 }
 
-.nav-li a
-{
-  padding: 20px;; 
+.nav-links {
+  list-style: none; /* Remove default list styles */
+  display: flex; /* Horizontal layout for links */
 }
 
-.nav-div  {
+.nav-links li {
+  margin: 0 15px; /* Space between links */
+}
 
-  background-color: rgb(63, 63, 71) ;
-  padding: 1pt;
-  margin: 5px;
+.nav-links a {
+  color:black; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Transition for hover effect */
+}
+
+.nav-links a:hover {
+  color: #f0a500; /* Change color on hover */
+}
+
+.nav-wraper{
+
+  background-color: #f0a500;
+  margin-top: 2px;
+  justify-content: space-between;
 }

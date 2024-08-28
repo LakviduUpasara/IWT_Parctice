@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <!-- Title -->
+    <title>My Shoping Cart</title>
+    <link rel="stylesheet" href="../src/style/index.css">
+    <link rel="stylesheet" href="../src/style/register.css">
+    
+    <script src="./style/js/register.js"></script>
+
+    <style>
+           
+    </style>
+</head>
+<body>
+
+    <header>
+
+    <!-- Add a logo -->
+
+    <div class ="logo">
+        <img class="logo" src="../src/image/logo.png" alt="logo" style=" width: 15%;"/ >
+
+    </div> 
+    <div class="heder">
+    <!-- Add heder -->
+    <h3>Shoping Card </h3> <br>
+    <h4>The Online Shoping center </h4>  
+     </div>
+
+
+   
+    <hr/>
+
+     <div class  ="nav-wraper">
+        
+        
+        <nav calss ="navbar">
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        
+        
+        
+          </nav>
+
+
+
+
+
+
+     </div>
+   
+
+
+
+    </nav>
+ </header>
+
+
+ <h1> Register From </h1>
+<div calss ="register" >
+
+    
+    <form action="/action_page.php" class="form" onsubmit=" return cheakpasswored()">
+        
+        <!--FRIST NAME -->
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required> <br> <br>
+        <!-- Last name -->
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"> <br><br>
+
+
+        <!-- gender-->
+
+        <label for="Gender"> Gender</label> <br/>
+        <br>
+
+        <div class = " gender-redio ">
+
+
+            <input type="radio"   value="male"> Male 
+            <input type="radio"   value="male"> female  <br> <br>
+       
+        </div>
+
+        <!-- mobile numbers  -->
+
+        <label for="Mobile "> Mobile Numbers </label><br>
+        <input type="mobile "  required><br><br>
+
+        <!-- Email -->
+
+        <label for="Email">Email</label> <br><br>
+        <input type="email" name="email" id=""> <br> <br>
+
+        <!-- Adress -->
+
+        <label for="adress">Adress : </label><br> <br>
+        <textarea name="adress" id="" cols="30" rows="10">
+        </textarea><br> <br>
+
+        <!-- DOB -->
+
+        <label for="dateofbrith"> Chose your Date of Brith </label> <br> <br>
+
+        <div calss = "brithday-lable">
+
+            <label for="Date"> Date</label> 
+            <label for="Date"> Month</label> 
+            <label for="Date"> Year</label> 
+        </div>
+
+        <div class = "dateofbrith-droupdown">
+
+            <select name="date" id=""> Date
+               
+                 <option value="1"> 01 </option>
+
+            </select>
+        
+            <select name="date" id=""> Date
+                   
+                    <option value="1">01  </option>
+                    
+            </select>
+
+            <select name="date" id=""> Date
+                   
+                <option value="1">2001</option>
+                
+            </select>
+
+        </div>
+
+        <!-- Passowerd -->
+
+        <br>
+        <label for="passwored">passwored</label> <br><br>
+
+        <input type="password" name="passworedtxt" id="pwd"> <br> <br>
+
+        <label for="Reenter-passwored">Reenter passwored</label> <br><br>
+
+        <input type="password" name="Reenter-passworedtxt" id="cmpwd"> <br> <br>
+
+        <input type="checkbox" name="privecy-and-policy" id="checkbox" onclick="enabalebutton()"> privecy-and-policy <br><br>
+
+       <input type="submit" value="Submit" id="submitbtn"  disabled >
+      
+    
+    
+    </form>
+
+
+  
+
+
+</div>
+
+     <footer>
+        <p>Crete By : Lakvidu Rathnayake<br>
+        <a href="mailto:hege@example.com">Vist Our corse</a></p>
+      </footer>
+    
+</body>
+</html>
